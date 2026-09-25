@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['buku model - v1 2023-08-26 9-29am']
+
+roboflow:
+  workspace: book-mxasl
+  project: book-cduc4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/book-mxasl/book-cduc4/dataset/1

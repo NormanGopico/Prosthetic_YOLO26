@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['kunci_kos', 'kunci_motor', 'kunci_pagar']
+
+roboflow:
+  workspace: norman-keith-gopico
+  project: keys-8royn-l35np
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/norman-keith-gopico/keys-8royn-l35np/dataset/1

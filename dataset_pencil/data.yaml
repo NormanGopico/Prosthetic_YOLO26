@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pencil']
+
+roboflow:
+  workspace: yolov8-3rxmw
+  project: pencil-lwr1w
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov8-3rxmw/pencil-lwr1w/dataset/3

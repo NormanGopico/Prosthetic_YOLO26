@@ -1,0 +1,15 @@
+# Local Python environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code local settings
+.vscode/
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+.venv_gpu/
+archived_datasets/

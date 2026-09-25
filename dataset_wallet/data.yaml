@@ -1,0 +1,12 @@
+train: train/images
+val: valid/images
+
+nc: 1
+names: ['wallet']
+
+roboflow:
+  workspace: mohamed-hussam-cq81o
+  project: wallet-sn9n2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mohamed-hussam-cq81o/wallet-sn9n2/dataset/1

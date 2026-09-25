@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Apple']
+
+roboflow:
+  workspace: wageningen-easq1
+  project: apple-7dhab
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wageningen-easq1/apple-7dhab/dataset/2

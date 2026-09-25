@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['bottle', 'can']
+
+roboflow:
+  workspace: aitrainning
+  project: bottle-detection-bjabk
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aitrainning/bottle-detection-bjabk/dataset/4

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['forks']
+
+roboflow:
+  workspace: passchecker2
+  project: fork-ipmhj
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/passchecker2/fork-ipmhj/dataset/3
